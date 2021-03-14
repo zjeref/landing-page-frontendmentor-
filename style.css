@@ -1,0 +1,200 @@
+:root {
+  --grey: hsl(201, 11%, 66%);
+  --blue-gray: hsl(210, 10%, 33%);
+}
+
+body {
+  font-family: "Bai Jamjuree", sans-serif;
+  font-size: 18px;
+  background: url(./images/bg-header-mobile.png) no-repeat;
+  margin: 0px;
+}
+
+.container {
+  padding: 15px 15px 15px 15px;
+  text-align: center;
+}
+
+.header {
+  text-align: center;
+}
+
+.header img {
+  padding: 5vh;
+}
+
+h1 {
+  font-size: 2rem;
+  color: var(--blue-gray);
+}
+
+p {
+  font-size: 1.07rem;
+  color: var(--grey);
+}
+
+.btn {
+  margin: 6vh 0;
+}
+
+button {
+  display: block;
+  padding: 17px 92px;
+  font-size: 1rem;
+  color: white;
+  border-radius: 26px;
+  border: 0px solid;
+  margin: 20px auto;
+  font-size: 1rem;
+}
+
+.images {
+  width: 100%;
+  max-width: 650px;
+}
+
+/* colors */
+
+.blue-grey {
+  color: hsl(210, 10%, 33%);
+}
+
+.grey {
+  color: hsl(201, 11%, 66%);
+}
+
+.cyan {
+  background-color: hsl(171, 66%, 44%);
+  box-shadow: 0px 2px 7px 0px hsl(171deg 66% 22%);
+}
+
+.blue {
+  background-color: hsl(233, 100%, 69%);
+  box-shadow: 0px 2px 7px 0px hsl(233, 100%, 69%);
+}
+
+button {
+  display: block;
+  padding: 17px 92px;
+  font-size: 1rem;
+  color: white;
+  border-radius: 26px;
+  border: 0px solid;
+  margin: 20px auto;
+}
+
+.media-object {
+  margin-top: 10vh;
+}
+
+.section {
+  margin: 9vh auto;
+}
+
+.section-2 {
+  margin: 9vh auto;
+}
+
+.section-3 {
+  margin: 9vh auto;
+}
+
+.section-4 {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin: 9vh auto;
+}
+
+.section-4 img {
+  margin: 6vh auto;
+  width: 35%;
+}
+
+footer {
+  text-align: center;
+  padding: 20px 0px 10px 0px;
+  background-color: rgb(197, 194, 194);
+}
+
+footer .socials img {
+  padding: 10px;
+}
+
+@media (min-width: 750px) {
+  body {
+    background-image: url(./images/bg-header-desktop.png);
+  }
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .media-object {
+    width: 100%;
+    display: flex;
+  }
+  .images {
+    max-width: 750px;
+  }
+  .media {
+    width: 60%;
+    margin-right: 10%;
+    margin-left: -20px;
+  }
+  .object {
+    text-align: start;
+    width: 30%;
+  }
+  .header,
+  .row-2,
+  .object {
+    width: 50%;
+    margin: auto;
+  }
+
+  .icon-object {
+    margin-top: 3rem;
+    display: flex;
+    justify-content: center;
+  }
+  .icon-1 {
+    width: 25%;
+    padding: 10px;
+  }
+  .section-4 {
+    flex-direction: row;
+    padding: 1rem;
+    width: 85%;
+  }
+  .section-4 img {
+    width: 10%;
+  }
+
+  button {
+    display: inline-block;
+    margin-right: 10px;
+    padding: 17px 50px;
+  }
+
+  footer {
+    display: flex;
+    justify-content: center;
+    padding: ;
+  }
+  .logo {
+    width: 20%;
+  }
+  .links {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  .link {
+    padding: 10px;
+  }
+  .socials {
+    justify-self: flex-end;
+  }
+}
